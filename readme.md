@@ -22,6 +22,10 @@ Physics 77 project team 2018. All rights reserved.
 - almost uniform distribution of particles with small random fluctuation of density
 - having tangential velocity against single center point (origin)
 
+-------------------
+#Necessary Packages 
+-numpy
+-vpython
 
 -------------------
 # System Overview 
@@ -57,4 +61,5 @@ Physics 77 project team 2018. All rights reserved.
 		5. append star[i]'s data to 'starlist_next'
 	3. vStack 'starlist_next' to 'gal_hist'
 4. **animate()**:
-	- show animation of position of stars over time	
+	- show animation of position of stars over time
+	- vpython package
